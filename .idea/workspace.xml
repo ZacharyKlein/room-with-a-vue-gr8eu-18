@@ -2,23 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c540b3a-0477-483d-86da-4dc91540b1e0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/grails-app/domain/demo/Author.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/grails-app/domain/demo/Book.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/grails-app/init/demo/BootStrap.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/grails-app/views/author/_author.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/grails-app/views/author/index.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/grails-app/views/book/_book.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/grails-app/views/book/index.gson" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/groovy/demo/AuthorService.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/groovy/demo/BookService.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/grails-app/conf/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/conf/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/grails-app/controllers/room/with/a/vue/ApplicationController.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/controllers/demo/ApplicationController.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/grails-app/controllers/room/with/a/vue/UrlMappings.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/controllers/demo/UrlMappings.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/grails-app/init/room/with/a/vue/Application.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/server/grails-app/init/demo/Application.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/grails-app/init/room/with/a/vue/BootStrap.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.postcssrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/build/webpack.test.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/config/dev.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/config/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/config/prod.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/config/test.env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/css/errors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/css/grails.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/css/mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/grails.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/apple-touch-icon-retina.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/grails-cupsonly-logo-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/grails.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/database_add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/database_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/database_edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/database_save.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/database_table.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/exclamation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/house.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/information.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/shadow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/sorted_asc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/skin/sorted_desc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/images/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Welcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/router/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/test/e2e/custom-assertions/elementCount.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/test/e2e/nightwatch.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/test/e2e/runner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/test/e2e/specs/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/test/unit/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/test/unit/jest.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/test/unit/setup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/test/unit/specs/Welcome.spec.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/server/.gradle/" />
     <ignored path="$PROJECT_DIR$/server/build/" />
@@ -38,6 +73,44 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/client">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="room-with-a-vue" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="room-with-a-vue" type="f1a62948:ProjectNode" />
+                <item name=":client" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="room-with-a-vue" type="f1a62948:ProjectNode" />
+                <item name=":client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="room-with-a-vue" type="f1a62948:ProjectNode" />
+                <item name=":client" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -75,7 +148,7 @@
         <entry file="file://$PROJECT_DIR$/server/grails-app/init/demo/BootStrap.groovy">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -959,7 +1032,8 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="1832020898" />
-        <entry key="$PROJECT_DIR$" value="7570032411000" />
+        <entry key="$PROJECT_DIR$" value="9090485300000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/client/build.gradle" value="3714682810" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="73832666" />
         <entry key="$PROJECT_DIR$/server/build.gradle" value="1914260180" />
@@ -1296,9 +1370,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/client/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="253" />
-    <option name="y" value="247" />
+    <option name="x" value="238" />
+    <option name="y" value="43" />
     <option name="width" value="1680" />
     <option name="height" value="946" />
   </component>
@@ -1321,125 +1398,7 @@
             <path>
               <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
               <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="i18n" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="init" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="author" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="grails-app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="book" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="room-with-a-vue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="room-with-a-vue" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="server" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="groovy" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1475,12 +1434,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.room-with-a-vue:client [start]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="room-with-a-vue:client [start]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/client" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="start" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
     </configuration>
     <configuration name="Grails: server" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -1541,6 +1517,15 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list>
+      <item itemvalue="Grails.Grails: server" />
+      <item itemvalue="Gradle.room-with-a-vue:client [start]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.room-with-a-vue:client [start]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1552,16 +1537,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520451640472</updated>
-      <workItem from="1520451672330" duration="821000" />
+      <workItem from="1520451672330" duration="3105000" />
     </task>
+    <task id="LOCAL-00001" summary="Server: Added domain model, data services, default package name">
+      <created>1520452872854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520452872854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="821000" />
+    <option name="totallyTimeSpent" value="3105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="253" y="247" width="1680" height="946" extended-state="0" />
-    <editor active="true" />
+    <frame x="238" y="43" width="1680" height="946" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -1583,10 +1575,10 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" weight="0.3292978" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="Web" side_tool="true" />
-      <window_info anchor="right" id="Gradle" />
+      <window_info active="true" anchor="right" id="Gradle" visible="true" weight="0.32967034" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -1841,6 +1833,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Server: Added domain model, data services, default package name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server: Added domain model, data services, default package name" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/grails-app/domain/demo/Book.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1901,7 +1897,7 @@
     <entry file="file://$PROJECT_DIR$/server/grails-app/init/demo/BootStrap.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
