@@ -1,4 +1,4 @@
-package room.with.a.vue
+package demo
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

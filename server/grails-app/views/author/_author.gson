@@ -1,0 +1,10 @@
+import demo.Author
+
+model {
+    Author author
+}
+json {
+    id author.id
+    name author.name
+    books author.books?.size()
+}

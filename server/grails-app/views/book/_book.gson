@@ -1,0 +1,14 @@
+import demo.Book
+
+model {
+    Book book
+}
+json {
+    id book.id
+    title book.title
+    pages book.pages
+    author {
+        id book.author.id
+        name book.author.name
+    }
+}

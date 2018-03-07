@@ -13,7 +13,7 @@ buildscript {
 }
 
 version "0.1"
-group "room.with.a.vue"
+group "demo"
 
 apply plugin:"eclipse"
 apply plugin:"idea"

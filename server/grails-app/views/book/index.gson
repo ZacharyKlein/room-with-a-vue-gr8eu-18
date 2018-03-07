@@ -1,0 +1,7 @@
+import demo.Book
+
+model {
+    List<Book> bookList = []
+}
+
+json tmpl.book("book", bookList)

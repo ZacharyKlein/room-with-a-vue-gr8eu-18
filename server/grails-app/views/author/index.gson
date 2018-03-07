@@ -1,0 +1,7 @@
+import demo.Author
+
+model {
+    List<Author> authorList = []
+}
+
+json tmpl.author("author", authorList)

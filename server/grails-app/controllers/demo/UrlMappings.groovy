@@ -1,4 +1,4 @@
-package room.with.a.vue
+package demo
 
 class UrlMappings {
 
