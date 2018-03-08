@@ -1,5 +1,7 @@
 <template>
-    <tr class="book-row">
+  <tr :class="{ hover: hover, 'book-row': true }"
+       @mouseover="hover = true"
+       @mouseleave="hover = false">
       <td class="title">{{book.title}}</td>
       <td class="pages">{{book.pages}}</td>
       <td class="author">{{book.author}}</td>
@@ -9,7 +11,12 @@
 <script>
 export default {
   name: 'book',
-  props: ['book']
+  props: ['book'],
+  data () {
+    return {
+      hover: false
+    }
+  }
 }
 </script>
 
@@ -29,5 +36,9 @@ export default {
 
   .author {
     text-decoration: underline;
+  }
+
+  .hover {
+    background: lightblue;
   }
 </style>
