@@ -15,12 +15,16 @@ export default {
   data () {
     return {
       msg: 'Welcome to the Library',
-      books: [
-        {id: 1, title: 'Book 1', pages: 100, author: 'Author 1'},
-        {id: 2, title: 'Book 2', pages: 300, author: 'Author 2'},
-        {id: 3, title: 'Book 3', pages: 200, author: 'Author 3'}
-      ]
+      books: []
     }
+  },
+  created: function () {
+    fetch(`http://localhost:8080/book`)
+      .then(r => r.json())
+      .then(json => {
+        this.books = json
+      })
+      .catch(e => console.warn(e))
   },
   components: {
     'book-list': BookList

@@ -4,7 +4,7 @@
        @mouseleave="hover = false">
       <td class="title">{{book.title}}</td>
       <td class="pages">{{book.pages}}</td>
-      <td class="author">{{book.author}}</td>
+      <td class="author">{{book.author.name}}</td>
     </tr>
 </template>
 
