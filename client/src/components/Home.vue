@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
 
-    <book-list :books="books" />
+    <book-list :books="books" :removeBook="removeBook"  />
 
   </div>
 </template>
@@ -25,6 +25,16 @@ export default {
         this.books = json
       })
       .catch(e => console.warn(e))
+  },
+  methods: {
+    removeBook: function (id) {
+      fetch(`http://localhost:8080/book/${id}`, {method: 'delete'})
+        .then(r => {
+          if (r.status === 204) {
+            this.books = this.books.filter(b => b.id !== id)
+          }
+        })
+    }
   },
   components: {
     'book-list': BookList

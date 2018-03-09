@@ -5,13 +5,14 @@
       <td class="title">{{book.title}}</td>
       <td class="pages">{{book.pages}}</td>
       <td class="author">{{book.author.name}}</td>
+      <td><button @click="removeBook(book.id)">X</button></td>
     </tr>
 </template>
 
 <script>
 export default {
   name: 'book',
-  props: ['book'],
+  props: ['book', 'removeBook'],
   data () {
     return {
       hover: false

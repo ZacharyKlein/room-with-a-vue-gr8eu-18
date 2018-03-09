@@ -4,9 +4,10 @@
       <td>Title</td>
       <td>Pages</td>
       <td>Author</td>
+      <td></td>
     </thead>
     <tbody>
-      <book :key="book.id" :book="book" v-for="book in books" />
+    <book :book="book" :removeBook="removeBook" :key="book.id" v-for="book in books" />
     </tbody>
   </table>
 </template>
@@ -15,7 +16,7 @@ import Book from './Book.vue'
 
 export default {
   name: 'book-list',
-  props: ['books'],
+  props: ['books', 'removeBook'],
   components: {
     book: Book
   }
@@ -24,6 +25,7 @@ export default {
 
 <style scoped>
   .book-list {
+    clear:both;
     min-width: 1000px
   }
 </style>
