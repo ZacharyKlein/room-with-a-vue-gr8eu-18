@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import BookList from './BookList.vue'
-import BookCreateForm from './BookCreateForm'
+import BookList from '@/components/book/BookList'
+import BookCreateForm from '@/components/book/BookCreateForm'
 
 export default {
   name: 'Welcome',
