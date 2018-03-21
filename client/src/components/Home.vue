@@ -2,6 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
 
+    <book-create-form :authors="authors" :addBook="addBook"  />
+    <br/><hr/>
     <book-list :books="books" :removeBook="removeBook"  />
 
   </div>
@@ -9,13 +11,15 @@
 
 <script>
 import BookList from './BookList.vue'
+import BookCreateForm from './BookCreateForm'
 
 export default {
   name: 'Welcome',
   data () {
     return {
       msg: 'Welcome to the Library',
-      books: []
+      books: [],
+      authors: []
     }
   },
   created: function () {
@@ -25,8 +29,32 @@ export default {
         this.books = json
       })
       .catch(e => console.warn(e))
+
+    fetch(`http://localhost:8080/author`)
+      .then(r => r.json())
+      .then(json => {
+        this.authors = json
+      })
+      .catch(e => console.warn(e))
   },
   methods: {
+    addBook: function (book) {
+      fetch(`http://localhost:8080/book/`,
+        {method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(book)})
+        .then(r => {
+          if (r.status === 201) {
+            return r.json()
+          } else {
+            throw Error('Could not save book')
+          }
+        })
+        .then(json => {
+          this.books.push(json)
+        })
+        .catch(e => console.error(e))
+    },
     removeBook: function (id) {
       fetch(`http://localhost:8080/book/${id}`, {method: 'delete'})
         .then(r => {
@@ -37,7 +65,8 @@ export default {
     }
   },
   components: {
-    'book-list': BookList
+    'book-list': BookList,
+    'book-create-form': BookCreateForm
   }
 }
 </script>
