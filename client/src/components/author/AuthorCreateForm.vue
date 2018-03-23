@@ -2,11 +2,11 @@
   <div class="form">
     <div class="title cell">
       <label>Name</label>
-      <input v-model="author.name" type="text"/>
+      <input v-model="author.name" type="text" ref="authorName">
     </div>
 
     <div class="save cell">
-      <button @click="addAuthor(author)">Add Author</button>
+      <button @click="submitNewAuthor()">Add Author</button>
     </div>
   </div>
 </template>
@@ -19,6 +19,13 @@ export default {
       author: {
         name: ''
       }
+    }
+  },
+  methods: {
+    submitNewAuthor: function () {
+      this.addAuthor(this.author)
+      this.author = {name: ''}
+      this.$refs.authorName.focus()
     }
   }
 }

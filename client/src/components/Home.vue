@@ -78,7 +78,10 @@ export default {
     removeAuthor: function (id) {
       fetch(`http://localhost:8080/author/${id}`, {method: 'delete'})
         .then(r => {
-          if (r.status === 204) this.authors = this.authors.filter(b => b.id !== id)
+          if (r.status === 204) {
+            this.authors = this.authors.filter(b => b.id !== id)
+            this.books = this.books.filter(b => b.author.id !== id)
+          }
         })
     }
   },
